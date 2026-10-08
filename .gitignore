@@ -17,6 +17,10 @@ build/
 venv/
 env/
 
+# Node / Frontend
+node_modules/
+frontend/dist/
+
 # IDE
 .vscode/
 .idea/
@@ -37,7 +41,11 @@ data/alerts/*
 data/auth/*
 data/security/*
 data/assessments/*
+data/evaluations/*
+data/tmp/*
 reports/generated/*
+logs/
+artifacts/evaluation/
 
 # Keep directory structure
 !models/.gitkeep

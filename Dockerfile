@@ -52,9 +52,6 @@ COPY config/ ./config/
 COPY src/ ./src/
 COPY api/ ./api/
 COPY scripts/ ./scripts/
-COPY app.py ./
-COPY conftest.py ./
-COPY pytest.ini ./
 
 # Copy built frontend from frontend-builder
 COPY --from=frontend-builder /app/frontend/dist ./static/

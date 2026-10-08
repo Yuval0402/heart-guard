@@ -70,8 +70,6 @@ AUTH_DATA_DIRECTORY: Path = DATA_DIRECTORY / "auth"
 SECURITY_DATA_DIRECTORY: Path = DATA_DIRECTORY / "security"
 ASSESSMENT_DATA_DIRECTORY: Path = DATA_DIRECTORY / "assessments"
 REPORT_DIRECTORY: Path = Path(os.getenv("REPORT_DIR", str(BASE_DIR / "reports")))
-NOTEBOOK_DIRECTORY: Path = BASE_DIR / "notebooks"
-ASSETS_DIRECTORY: Path = BASE_DIR / "assets"
 TEMP_DIRECTORY: Path = Path(os.getenv("TEMP_DIR", str(BASE_DIR / "data" / "tmp")))
 
 # ---------------------------------------------------------------------------
