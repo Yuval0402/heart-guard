@@ -1,0 +1,61 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Generated data and models
+models/*
+data/processed/*
+data/alerts/*
+data/auth/*
+data/security/*
+data/assessments/*
+reports/generated/*
+
+# Keep directory structure
+!models/.gitkeep
+!data/processed/.gitkeep
+!data/alerts/.gitkeep
+!data/auth/.gitkeep
+!data/security/.gitkeep
+!data/assessments/.gitkeep
+!reports/generated/.gitkeep
+
+# pytest
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database files — never commit real data
+*.db
+*.sqlite
+*.sqlite3
